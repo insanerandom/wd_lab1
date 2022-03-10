@@ -1,4 +1,5 @@
 import math
+import string
 
 print("Zad1")
 a = 0
@@ -82,3 +83,9 @@ print("e^10 = %(a)f" % {'a': a})
 print(pow(math.log(5 + (pow(math.sin(8), 2))), (1/6)))
 print(math.floor(3.55))
 print(math.ceil(4.8))
+print("\nZad5")
+string = "przemyslaw"
+capString = string.capitalize()
+string = "sZymanowski"
+capString_ = string.capitalize()
+print(capString + " " + capString_)
